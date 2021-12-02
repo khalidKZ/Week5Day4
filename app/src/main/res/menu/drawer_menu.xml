@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item
+    android:id="@+id/home"
+    android:title="home"
+    android:icon="@drawable/ic_baseline_home_24"/>
+    <item
+        android:id="@+id/camera"
+        android:title="camera"
+        android:icon="@drawable/ic_baseline_camera_alt_24"/>
+
+    <item
+        android:title="communication">
+<!--المنيو هو الي يخليني احط خيارات داخل خيار-->
+        <menu>
+            <item
+                android:id="@+id/shir"
+                android:title="shir"
+                android:icon="@drawable/ic_baseline_dashboard_24"/>
+            <item
+                android:id="@+id/shoping"
+                android:title="shoping"
+                android:icon="@drawable/ic_baseline_shopping_basket_24"/>
+        </menu>
+    </item>
+
+
+</menu>
